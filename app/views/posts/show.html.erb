@@ -1,6 +1,6 @@
 Information About the Post
 <!-- because of the line below, we can delete @author = @post.author in posts_controller -->
-<%= render partial: "authors/author", locals: {post_author: @author} %>
+<%= render partial: "authors/author", locals: {post_author: @post.author} %>
 
 <%= @post.title %>
 <%= @post.content %>
